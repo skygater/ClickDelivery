@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius"
+    android:layout_marginTop="8dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal"
+        android:background="@drawable/radius"
+
+        >
+
+        <ImageView
+            android:id="@+id/res_slika"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/venom"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="7dp"
+            />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="8dp"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/res_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restoran "
+                android:layout_marginLeft="18dp"
+                android:textSize="22sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/fatOrange"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="3dp"
+                >
+                <TextView
+                    android:id="@+id/res_email"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.2"
+                    android:layout_height="wrap_content"
+                    android:text="example@mail.com"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/res_tel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="tel: 069289544"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:id="@+id/res_location"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Lokacija restorana"
+
+                    android:textSize="14sp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#000"
+                    />
+                <ProgressBar
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressBar2"
+                    android:visibility="invisible"
+                    android:layout_marginRight="8dp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

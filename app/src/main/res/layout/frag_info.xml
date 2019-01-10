@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/radius"
+        android:layout_margin="15dp"
+        >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buccanero"
+        android:layout_marginTop="8dp"
+        android:id="@+id/fr_slika"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Restoran"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/fatOrange"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:id="@+id/fr_name"
+        android:layout_marginBottom="12dp"
+        />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Adresa"
+          android:gravity="center_horizontal"
+          android:textSize="18sp"
+          android:id="@+id/fr_adresa"
+          android:layout_marginTop="2dp"
+          android:layout_marginBottom="12dp"
+          />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            >
+            <TextView
+                android:id="@+id/fr_email"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="example@mail.com"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:textColor="#000"
+                android:gravity="center_horizontal"
+
+                />
+            <TextView
+                android:id="@+id/fr_tel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="tel: 069289544"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:textColor="#000"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="32dp"
+                />
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+include ':app', ':spacelib', ':spinner', ':picasso-2.5.2', ':library', ':library2', ':gson-2.2.1'
